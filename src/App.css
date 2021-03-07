@@ -28,11 +28,55 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#viewPort{
+top: 0px;
+left: 0px;
+/* width: auto;
+height: auto; */
+/* width: 1820px;
+height: 1080px; */
+width: 1530px;
+height: 700px;
+background: #72A1BF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+#home{
+position: relative;  
+top: 29px;
+left: 32px;
+width: 84px;
+height: 42px;
+background: #F2FAFF 0% 0% no-repeat padding-box;
+border-radius: 4px;
+opacity: 1;
+}
+
+#insideBox{
+/* position: sticky;   */
+/* top: 205px;
+left: 392px; */
+top: 150px;
+left: 300px;
+
+/* height: 670px;width: 1137px; */
+width: 1000px;
+height: 500px;
+margin-top: 50px;
+margin-bottom: 100px;
+margin-left: 250px; 
+margin-right: 251px;
+background: #074770 0% 0% no-repeat padding-box;
+border-radius: 36px;
+opacity: 1;
+}
+
+#submit{
+top: 264px;
+left: 1288px;
+width: 179px;
+height: 42px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 21px;
+opacity: 0.49;
 }
