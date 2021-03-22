@@ -5,14 +5,13 @@
 //   Link
 // } from "react-router-dom";
 import './App.css';
-import HomeScreen from './components/HomeScreen';
-import Submit from './components/Submit';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './components/Home';
 
 function App() {
   return (
     <div className="App">
-      <HomeScreen />
-      <Submit />
+      <Home />
     </div>
   );
 }
